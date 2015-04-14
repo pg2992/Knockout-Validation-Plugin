@@ -1,0 +1,28 @@
+{
+  "name": "Knockout-Validation-Plugin",
+  "version": "1.0.0",
+  "description": "This library is plugin for validations for projects using Knockout for data-binding",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pg2992/Knockout-Validation-Plugin.git"
+  },
+  "keywords": [
+    "Knockout-validation",
+    "plugin"
+  ],
+  "author": "pg2992",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pg2992/Knockout-Validation-Plugin/issues"
+  },
+  "homepage": "https://github.com/pg2992/Knockout-Validation-Plugin",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-uglify": "^0.9.1"
+  }
+}
