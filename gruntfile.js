@@ -28,14 +28,19 @@ module.exports = function(grunt){
 				dest : "KnockOutValidation.min.js"
 
 			}
-		}
+		},
+		jshint: {
+  	  		all: ['Gruntfile.js','*.js', 'src/*.js']
+  		}
 	});
 
+	grunt.loadNpmTasks('grunt-contrib-jshint');
+	
 	grunt.loadNpmTasks("grunt-contrib-concat");
 
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 
-	grunt.registerTask('default',['concat','uglify']);
+	grunt.registerTask('default',['concat','uglify','jshint']);
 
 
 };
